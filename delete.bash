@@ -1,9 +1,9 @@
 #!/bin/bash
 
-rm -f *.txt
+rm -r -f *.txt
 for ((;;))
 do
 cd ..
-rm -f *.txt
+rm -r -f *.txt
 done
 
